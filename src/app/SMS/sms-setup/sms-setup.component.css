@@ -1,0 +1,16 @@
+.all{
+    width:90%;
+    padding: 2% 5% 7% 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.title{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+}
+.next{
+    margin-left: auto;
+}

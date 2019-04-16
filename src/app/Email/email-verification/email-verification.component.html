@@ -1,0 +1,25 @@
+<div class="all">
+    <h1 class="title">Email Verification</h1>
+  
+    <div class="top_img">
+  
+    </div>
+    
+    <br> <br> <br>
+  
+    <h2 *ngIf="!b">Verify your email address</h2>
+    <h2 *ngIf="b">Verify your backup email address</h2>
+    <h3>We have just sent an email with a verification code:</h3>
+    <input placeholder="Code sent">
+  
+    <br> <br>
+  
+    <div class="buttons">
+      <a routerLink = "/Email_setup" class="back">
+        <button>Cancel</button>
+      </a>
+      <a routerLink = "/MFA_worked" class="next">
+        <button>Next</button>
+      </a>
+    </div>
+  </div>

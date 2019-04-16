@@ -1,0 +1,17 @@
+.all{
+    width:90%;
+    padding: 2% 5% 7% 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.title{
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+a{
+    color:cornflowerblue;
+}

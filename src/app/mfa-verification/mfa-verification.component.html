@@ -1,0 +1,40 @@
+<div class="all">
+  <h1 class="title">MFA Verification</h1>
+
+  <div *ngIf="!b">
+    <h2>Protect your account with MFA Verification</h2>
+    <h3>Each time you sign in to your account, you will need your password and a verification code</h3>
+  </div>
+
+  <div *ngIf="b">
+    <h2>Set your backup channel(s)</h2>
+  </div>
+  <br> <br> <br>
+
+  <div>
+    <img src="favicon.ico" class="image">
+    <div class="on-line">
+      <h3>Add an extra layer of security</h3>
+      <h5>Enter your password and a unique verification code that is sent to you.</h5>
+    </div>
+  </div>
+  <div >
+    <img src="favicon.ico" class="image">
+    <div class="on-line">
+      <h3>Keep the hackers out</h3>
+      <h5>Even if someone else gets your password, it will not be enough to sign in 
+        to your account.</h5>
+    </div>
+  </div>
+
+  <br> <br>
+
+  <div class="buttons">
+    <a routerLink = "/" class="back">
+      <button>Back</button>
+    </a>
+    <a routerLink = "/MFA_setup" class="next">
+      <button>Get Started</button>
+    </a>
+  </div>
+</div>

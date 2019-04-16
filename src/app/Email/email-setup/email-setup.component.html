@@ -1,0 +1,26 @@
+<div class="all">
+    <h1 class="title">Email Setup</h1>
+  
+    <div class="top_img">
+  
+    </div>
+    
+    <br> <br> <br>
+  
+    <h2 *ngIf="!b">Set your email address</h2>
+    <h2 *ngIf="b">Set another email address</h2>
+    <h3>What email address do you want to use?</h3>
+    <input placeholder="Email" id="email" (keyup)="onkeyup()" >
+    <h2 id="check">{{ check }}</h2>
+  
+    <br> <br>
+  
+    <div class="buttons">
+      <a routerLink = "/MFA_setup" class="back">
+        <button>Cancel</button>
+      </a>
+      <a routerLink = "/Email_verification" class="next">
+        <button>Next</button>
+      </a>
+    </div>
+  </div>

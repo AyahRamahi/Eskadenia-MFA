@@ -1,0 +1,25 @@
+<div class="all">
+  <h1 class="title">SMS Setup</h1>
+
+  <div class="top_img">
+
+  </div>
+  
+  <br> <br> <br>
+
+  <h2 *ngIf="!b">Set your phone number</h2>
+  <h2 *ngIf="b">Set another phone number</h2>
+  <h3>What phone number do you want to use?</h3>
+  <input placeholder="Phone number" (keydown)="isNumberKeyCode(input)" id="number">
+
+  <br> <br>
+
+  <div class="buttons">
+    <a routerLink = "/MFA_setup" class="back">
+      <button>Cancel</button>
+    </a>
+    <a routerLink = "/Mobile_verification" class="next">
+      <button>Next</button>
+    </a>
+  </div>
+</div>
